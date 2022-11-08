@@ -1,0 +1,48 @@
+@import url(https://fonts.google.com/share?selection.family=Dela%20Gothic%20One%7CKurale%7CPoppins:ital,wght@0,100;0,200;0,300;0,700;0,800;0,900;1,200;1,700;1,800);
+
+html{
+    background-color: black;
+    height: 100vh;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding: 10rem;
+}
+
+.font{
+    font-size: 3.7rem;
+}
+
+.header{
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    
+}
+
+.de{
+    color: white;
+}
+
+.nav ul{
+    color: red;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: default;
+}
+
+li:hover{
+    transform: scale(1.2);
+    color: rgb(255, 181, 181);
+}
