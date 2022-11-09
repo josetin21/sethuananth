@@ -18,14 +18,14 @@ body {
 }
 
 .font{
-    font-size: 3.7rem;
+    font-size: 3.75rem;
+    font-weight: bolder;
 }
 
 .header{
     color: white;
     padding: 3rem;
     text-align: center;
-    
 }
 
 .de{
@@ -40,6 +40,7 @@ body {
     list-style: none;
     font-size: 1.5rem;
     cursor: default;
+    margin-top: 0;
 }
 
 li:hover{
